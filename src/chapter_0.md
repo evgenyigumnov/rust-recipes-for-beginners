@@ -24,10 +24,15 @@ The essence of this book is that it is created with the help of Large Language M
 | **Chapter 13: Integrations with Other Languages**         | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
 | **Chapter 14: Cryptography**                              | Hashing (SHA), Encryption (RSA, AES), Digital Signatures, `ring`, Key Management      |             |
 
+**About the Book:**
 
 In this book, you will learn how to solve a wide variety of programming challenges using Rust. Starting with basic project management and setting up with Cargo, we will delve into topics including functional programming, asynchronous programming, serialization, design patterns, memory management, databases, web development, AI pipelines, and much more. This cookbook aims to provide practical solutions with step-by-step instructions, catering to developers who are already familiar with programming and want to deepen their skills in Rust.
 
 Throughout the book, you will explore numerous techniques and best practices for building efficient, high-performance Rust applications. Each section is filled with hands-on recipes, guiding you from fundamental concepts to advanced features. Whether you are developing concurrent applications, managing memory, building web services, or integrating with other languages, this book will be a valuable resource.
+
+**Rust source codes from each chapter:**
+
+https://github.com/evgenyigumnov/rust-recipes-for-beginners/tree/main/examples
 
 **Target Audience:**
 
@@ -45,7 +50,7 @@ Throughout the book, you will explore numerous techniques and best practices for
 
 **Prerequisites:**
 
-2. Basic knowledge of programming in any language.
+1. Basic knowledge of programming in any language.
 2. Familiarity with command-line tools and general software development concepts.
 
 **Book Description:**
