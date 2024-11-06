@@ -1,5 +1,30 @@
 # Introduction
 
+**Idea and Concept of the Book:**
+
+The essence of this book is that it is created with the help of Large Language Models (LLMs). The author formulates the requirements for each section, and the LLM generates the text and code examples. The author then edits and verifies the code through compilation and test execution. The edited version is added to the book. Typically, each chapter is divided by the author into sections, and each section is generated separately by the LLM, eventually being assembled into a full chapter from individual parts. This book is distributed under the MIT license, and pull requests from co-authors are welcome.
+
+
+**Book Structure and Status:**
+
+| Chapter Titles                                    | Concepts & Technologies Covered                                       | Status      |
+|---------------------------------------------------|-----------------------------------------------------------------------|-------------|
+| **Chapter 1: Cargo: Managing Rust Projects**      | Cargo, Project Initialization, Workspaces, Modules, Dependencies      | Done        |
+| **Chapter 2: Functional Programming in Rust**     | Iterators, Closures, Mapping, Filtering, Folding, Enumerating         | Done        |
+| **Chapter 3: Error Handling**                     | Result & Option, `?` Operator, `anyhow`, `thiserror`, Custom Errors   | Done        |
+| **Chapter 4: Command Line Applications**              | `clap`, CLI Development, Argument Parsing, Environment Variables             | Done        |
+| **Chapter 5: Logging and Monitoring**                 | `log`, `tracing`, Diagnostics, Monitoring Tools                              | Done        |
+| **Chapter 6: Serialization and Deserialization**      | Serde, JSON, YAML, TOML, CSV, Bincode, Custom Serialization                  | In progress |
+| **Chapter 7: Memory Management and Smart Pointers**   | Ownership, `Box`, `Rc`, `Arc`, `Mutex`, `RefCell`, `Weak`, `Drop`, `unsafe`  |             |
+| **Chapter 8: Design Patterns**                 | Creational, Structural, Behavioral Patterns, Traits, Enums, Smart Pointers             |             |
+| **Chapter 9: Asynchronous Programming**        | `async`/`await`, Tokio, Futures, Async I/O, Task Management, Concurrency, Crossbeam    |             |
+| **Chapter 10: Working with Databases**                    | SQLite, MySQL, PostgreSQL, SQLx, SeaORM, Diesel, Async Database Operations            |             |
+| **Chapter 11: Web Development**                           | Axum, Actix, `reqwest`, `ureq`, `hyper`, HTTP Clients, Servers, APIs, Asynchronous Web|             |
+| **Chapter 12: Building AI Pipelines with LangChain-Rust** | LLMs, Embeddings, Vector Stores, Document Loaders, AI Integration                     |             |
+| **Chapter 13: Integrations with Other Languages**         | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
+| **Chapter 14: Cryptography**                              | Hashing (SHA), Encryption (RSA, AES), Digital Signatures, `ring`, Key Management      |             |
+
+
 In this book, you will learn how to solve a wide variety of programming challenges using Rust. Starting with basic project management and setting up with Cargo, we will delve into topics including functional programming, asynchronous programming, serialization, design patterns, memory management, databases, web development, AI pipelines, and much more. This cookbook aims to provide practical solutions with step-by-step instructions, catering to developers who are already familiar with programming and want to deepen their skills in Rust.
 
 Throughout the book, you will explore numerous techniques and best practices for building efficient, high-performance Rust applications. Each section is filled with hands-on recipes, guiding you from fundamental concepts to advanced features. Whether you are developing concurrent applications, managing memory, building web services, or integrating with other languages, this book will be a valuable resource.
@@ -54,3 +79,6 @@ Evgeny's expertise extends beyond Rust. He has extensive experience in Java, Sca
 His earlier career includes roles at Geocad in Russia, where he worked as a Senior Java Developer, and Le Petit Fute in France, where he developed websites using Perl. Evgeny holds a Master's degree in Computer Science from Novosibirsk State Technical University, where he graduated in 2002 with a focus on software development and automation.
 
 Evgeny's deep knowledge of multiple programming languages and systems, combined with his hands-on experience in diverse domains, makes him a valuable educator and practitioner in the field of Rust development.
+
+**Co-authors:**
+
