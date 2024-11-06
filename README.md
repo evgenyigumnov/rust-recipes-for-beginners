@@ -1,5 +1,7 @@
 # Rust Recipes for Beginners
 
+![book](https://github.com/evgenyigumnov/rust-recipes-for-beginners/raw/HEAD/book.png)
+
 - [Introduction](./src/chapter_0.md)
 - [Chapter 1 - Cargo: Managing Rust Projects](./src/chapter_1.md)
 - [Chapter 2 - Functional Programming in Rust](./src/chapter_2.md)
