@@ -1,1 +1,1 @@
-# rust-recipes-for-beginners
+# Rust Recipes for Beginners

@@ -1,4 +1,4 @@
-# TOC
+# Rust Recipes for Beginners
 
 - [Introduction](./chapter_0.md)
 - [Chapter 1 - Cargo: Managing Rust Projects](./chapter_1.md)
