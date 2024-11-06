@@ -1,0 +1,6 @@
+[book]
+authors = ["Evgeny Igumnov"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Recipes for Beginners"
