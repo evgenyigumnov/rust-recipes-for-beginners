@@ -1,0 +1,13 @@
+[package]
+name = "opentelemetry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+opentelemetry = "0.26.0"
+opentelemetry-otlp = { version = "0.26.0" ,  features = ["tonic"] }
+opentelemetry_sdk = { version = "0.26.0", features = ["rt-tokio"] }
+async-std = { version = "1.6.0-beta.2" }
+tokio = { version = "1.41.0", features = ["tokio-macros", "time", "rt", "rt-multi-thread", "macros"] }
+

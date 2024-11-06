@@ -1,0 +1,8 @@
+[package]
+name = "time_measure"
+version = "0.1.0"
+authors = ["Your Name <your_email@example.com>"]
+edition = "2021"
+description = "A simple library to measure the execution time of code blocks"
+license = "MIT"
+repository = "https://github.com/your_username/time_measure"

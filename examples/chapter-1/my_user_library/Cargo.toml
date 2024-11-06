@@ -1,0 +1,16 @@
+[package]
+name = "my_user_library"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Optional dependencies for the features
+serde = { version = "1.0.210", features = ["derive"], optional = true }
+serde_json = { version = "1.0.128", optional = true }
+bincode = { version = "2.0.0-rc.3", optional = true }
+
+[features]
+default = ["serde_json_support"]
+serde_json_support = ["serde", "serde_json"]
+bincode_support = ["serde", "bincode"]

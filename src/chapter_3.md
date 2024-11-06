@@ -1,9 +1,8 @@
-# Chapter 3
-# Error Handling
-# Introduction
+# Chapter 3 Error Handling
+## Introduction
 This chapter delves into Rust's robust error-handling mechanisms, which make the language both powerful and safe for building reliable applications. You'll learn to leverage the `Result` and `Option` types for managing errors and null values gracefully, while Rust's expressive syntax allows for concise error propagation using the `?` operator. The chapter will also introduce popular error-handling libraries like `anyhow` and `thiserror` to simplify error management and create custom error types, enhancing the clarity and maintainability of your code.
 
-# Structure
+## Structure
 This chapter includes the following topics:
 - Introduction to Rust's error-handling philosophy.
 - Working with `Result` and `Option` for error and null value management.
@@ -12,13 +11,13 @@ This chapter includes the following topics:
 - Creating and using custom error types with the `thiserror` library.
 
 
-# Objectives
+## Objectives
 
 In this chapter, you will gain a comprehensive understanding of Rust’s error-handling mechanisms, which prioritize safety and reliability without sacrificing conciseness. By the end of the chapter, you'll be comfortable using the Result and Option types to manage errors and optional values in your programs. You'll also learn how to leverage the ? operator for streamlined error propagation, reducing boilerplate while maintaining clear error-handling logic. The chapter will introduce you to popular libraries like anyhow and thiserror, which make working with complex error scenarios more ergonomic and flexible.
 
 Through practical examples, you'll explore how to define custom error types, adding clarity and context to your error messages, and how to simplify error management in larger applications. By combining different approaches to error handling, including Rust’s built-in features and third-party libraries, you will be able to write robust, maintainable, and safe Rust code.
 
-# Recipes
+## Recipes
 The chapter will cover the following recipes:
 1. **Working with Result and Option:** Handle operations that may fail or yield no result using Rust's `Result` and `Option` types.
 2. **Propagating Errors with the `?` Operator:** Learn to use the `?` operator for error propagation and simplifying code.

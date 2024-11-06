@@ -1,7 +1,6 @@
-# Chapter 5
-# Logging and Monitoring
+# Chapter 5 Logging and Monitoring
 
-# Introduction
+## Introduction
 
 Logging and monitoring are critical components in software development, enabling developers to track the behavior of applications, diagnose issues, and ensure proper functioning in production environments. In Rust, several crates provide robust tools for logging and log management, each suited for different use cases ranging from basic logging to structured, event-based diagnostics. This chapter introduces the key logging tools and techniques available in Rust, covering basic logging, structured logging, and log rotation.
 
@@ -9,7 +8,7 @@ We'll start with a simple logging setup using the `log` crate, which offers a st
 
 By the end of this chapter, you'll be equipped with practical recipes to integrate logging and monitoring into your Rust applications, making it easier to track performance, troubleshoot issues, and maintain a clean and manageable log history.
 
-# Structure 
+## Structure 
 This chapter includes the following topics:
 - Introduction to logging in Rust
 - Basic logging with the `log` crate
@@ -18,7 +17,7 @@ This chapter includes the following topics:
 - Tracing operations with OpenTelemetry and Jaeger
 
 
-# Objectives
+## Objectives
 The primary objective of this chapter is to provide a comprehensive understanding of logging and monitoring in Rust applications, enabling developers to effectively track and diagnose issues in their software. By the end of this chapter, readers will have learned how to set up and manage logging in Rust using popular crates, ensuring that logs capture crucial information at various stages of execution. The chapter begins with a focus on simple logging setups using the `log` crate, teaching how to capture basic messages like `info`, `error`, and `debug` logs. This foundation helps developers follow application behavior and detect errors in a straightforward manner.
 
 Beyond basic logging, the chapter aims to deepen the understanding of structured logging with the `tracing` crate. Readers will learn how to enrich their logs with additional contextual information, which is particularly useful in asynchronous and concurrent Rust applications. The use of spans, events, and structured fields in `tracing` allows developers to better observe the flow of operations, making it easier to diagnose complex, multi-threaded issues.
@@ -28,7 +27,7 @@ Additionally, the chapter covers the management and rotation of log files, a cru
 Finally, the chapter introduces readers to distributed tracing with OpenTelemetry and Jaeger, providing the tools necessary to track the lifecycle of operations across services. By leveraging these technologies, developers can monitor performance, trace errors, and gain visibility into how requests propagate through distributed systems, enhancing their ability to maintain and optimize complex applications.
 
 
-# Recipes
+## Recipes
 The chapter will cover the following recipes:
 1. **Implementing Basic Logging with `log`**. Set up simple logging to standard output using the `log` crate and configure different log levels (info, debug, error).
 2. **Structured Logging with `tracing`**. Add structured logging capabilities using the `tracing` crate to provide rich diagnostic information.

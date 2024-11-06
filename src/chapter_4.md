@@ -1,14 +1,13 @@
-# Chapter 4
-# Command Line Applications
-# Introduction
+# Chapter 4 Command Line Applications
+## Introduction
 In this chapter, we will explore the development of command-line applications using Rust. Command-line interfaces (CLIs) are powerful tools that allow users to interact with programs through text-based commands, making them ideal for scripting, automation, and system administration. We will start by setting up a basic CLI project using popular Rust libraries and then dive into various techniques to enhance functionality. This chapter focuses on building robust and user-friendly CLI applications, covering topics like parsing arguments, handling environment variables, and integrating logging.
 
-# Objectives
+## Objectives
 
 In this chapter, the objective is to equip you with the knowledge and practical skills to build powerful and user-friendly command-line applications (CLIs) in Rust. We will begin by creating a basic CLI tool and progressively explore essential techniques such as parsing command-line arguments, working with flags, and managing multiple subcommands. You will also learn how to integrate environment variables for flexible configuration and logging mechanisms to enhance the reliability of your applications. By the end of this chapter, you will be able to create robust CLI tools that are adaptable and efficient, capable of handling a wide range of tasks from simple scripts to complex system utilities.
 
 
-# Structure
+## Structure
 This chapter includes the following topics:
 - Introduction to building CLI tools in Rust with the `clap` crate 
 - Using the Builder Pattern to define CLI arguments
@@ -17,7 +16,7 @@ This chapter includes the following topics:
 - Using environment variables to configure CLI applications.
 - Implementing multiple subcommands to handle complex CLI workflows.
 
-# Recipes
+## Recipes
 The chapter will cover the following recipes:
 1. **Creating a Simple CLI Tool Using `clap`:** Learn how to build a basic command-line interface (CLI) tool with the `clap` crate, focusing on structuring your application to accept user input through the terminal.
 2. **Using the Builder Pattern to define CLI arguments:** Explore how to define command-line arguments and flags using the builder pattern, allowing for more customization and control over the CLI tool's behavior.

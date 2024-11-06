@@ -1,10 +1,9 @@
-# Chapter 2
-# Functional Programming in Rust
+# Chapter 2 Functional Programming in Rust
 
-# Introduction
+## Introduction
 In this chapter, we will explore functional programming techniques using Rust, focusing on how Rust's powerful iterator and closure features can be used to write concise and efficient code. You will learn how to manipulate collections, transform data, and apply functional programming concepts effectively within the Rust ecosystem. We'll cover Rust's functional capabilities, including filtering, mapping, folding, and zipping, which allow for elegant data transformations. Additionally, we'll discuss the benefits of immutability and the use of higher-order functions to achieve clean, maintainable code.
 
-# Topics to be covered
+## Topics to be covered
 - Introduction to functional programming in Rust
 - Working with iterators and closures
 - Filtering collections using the `filter` method
@@ -16,7 +15,11 @@ In this chapter, we will explore functional programming techniques using Rust, f
 - Benefits of immutability and pure functions in Rust
 - Using Rust’s pattern matching for data manipulation
 
-# Recipes
+## Objectives
+By the end of this chapter, you will have a solid understanding of functional programming principles in Rust, including the use of immutability and higher-order functions to create clean and efficient code. You will learn how to leverage Rust's powerful iterators and closures to write expressive solutions for data manipulation, applying techniques such as filtering, mapping, folding, and zipping to transform collections. Additionally, you will become familiar with Rust's pattern matching system for extracting and processing data, enhancing control flow and handling various scenarios effectively. You will also explore lazy evaluation and how to use iterator combinators to optimize performance by deferring computations until necessary. Through this chapter, you will be able to implement functional approaches to common tasks like transforming, aggregating, and combining data in a more concise and readable manner.
+
+
+## Recipes
 1. **Filtering Collections:** Use the `filter` method to select elements from a collection based on a specified condition.
 2. **Mapping and Transforming Data:** Apply a function to each element in a collection using `map`, transforming the data to a new form.
 3. **Flattening Nested Structures:** Simplify nested collections or iterators by merging them into a single sequence using `flatten`.

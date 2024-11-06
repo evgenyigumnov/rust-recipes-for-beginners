@@ -1,0 +1,8 @@
+[package]
+name = "thiserror"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.64"
+reqwest = { version = "0.12.8" , features = ["blocking"]}

@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "chapter-1/file_collector",
+    "chapter-1/my_first_app",
+    "chapter-1/my_rand_project",
+    "chapter-1/my_user_app",
+    "chapter-1/my_user_library",
+    "chapter-1/time_measure",
+    "chapter-2",
+    "chapter-3/anyhow",
+    "chapter-3/simple",
+    "chapter-3/thiserror",
+    "chapter-4/enumeration",
+    "chapter-4/greet-cli",
+    "chapter-4/my-cli-uppercase",
+    "chapter-4/validation",
+    "chapter-4/values",
+    "chapter-4",
+    "chapter-4/var_override",
+    "chapter-4/sub-command", "chapter-5/env-logger", "chapter-5/tracing", "chapter-5/flexi_logger", "chapter-5/opentelemetry",
+]
