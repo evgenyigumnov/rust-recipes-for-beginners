@@ -16,4 +16,4 @@
 - Chapter 11: Web Development
 - Chapter 12: Building AI Pipelines with LangChain-Rust
 - Chapter 13: Integrations with Other Languages
-- Chapter 14: Cryptography
+- [Chapter 14: Cryptography](./src/chapter_14.md)
