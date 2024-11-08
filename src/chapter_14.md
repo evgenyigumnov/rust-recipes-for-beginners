@@ -122,33 +122,33 @@ How Signing Works
 
 Digital signing involves two main components: a private key and a public key, which are part of an asymmetric encryption system. Here’s a step-by-step explanation:
 1. Hashing the Data:
-   • First, a mathematical function called a hash function (e.g., SHA-256) is used to create a unique fixed-size hash of the original data.
-   • The hash acts as a “fingerprint” of the data. If even one bit of the data changes, the hash will be completely different.
+   - First, a mathematical function called a hash function (e.g., SHA-256) is used to create a unique fixed-size hash of the original data.
+   - The hash acts as a “fingerprint” of the data. If even one bit of the data changes, the hash will be completely different.
 2. Encrypting the Hash (Creating the Signature):
-   • The data’s hash is then encrypted using the sender’s private key. This encrypted hash is called the digital signature.
-   • Only the sender’s private key can create this signature, which links the signature specifically to the sender.
+   - The data’s hash is then encrypted using the sender’s private key. This encrypted hash is called the digital signature.
+   - Only the sender’s private key can create this signature, which links the signature specifically to the sender.
 3. Attaching the Signature:
-   • The digital signature is attached to the original data, and both are sent to the recipient.
+   - The digital signature is attached to the original data, and both are sent to the recipient.
 
 How Verification Works
 
 When the recipient receives the signed data:
 1. Recreating the Hash:
-   • The recipient uses the same hash function to create a new hash from the received data.
+   - The recipient uses the same hash function to create a new hash from the received data.
 2. Decrypting the Signature:
-   • The recipient uses the sender’s public key to decrypt the digital signature and retrieve the original hash created by the sender.
+   - The recipient uses the sender’s public key to decrypt the digital signature and retrieve the original hash created by the sender.
 3. Comparing Hashes:
-   • The recipient compares the newly generated hash with the hash from the decrypted signature.
-   • If the two hashes match:
-   • The data has not been altered (integrity).
-   • The signature was created with the sender’s private key, proving that the data is genuinely from the sender (authenticity).
-   • If the hashes do not match, either the data was tampered with, or the signature is not valid.
+   - The recipient compares the newly generated hash with the hash from the decrypted signature.
+   - If the two hashes match:
+   - The data has not been altered (integrity).
+   - The signature was created with the sender’s private key, proving that the data is genuinely from the sender (authenticity).
+   - If the hashes do not match, either the data was tampered with, or the signature is not valid.
 
 Use Cases
 
-• Document Signing: To verify the author and prevent tampering of digital documents.
-• Software Distribution: To ensure that software has not been altered and is from a trusted source.
-• Email Security: To verify the sender and ensure the content hasn’t been changed.
+- Document Signing: To verify the author and prevent tampering of digital documents.
+- Software Distribution: To ensure that software has not been altered and is from a trusted source.
+- Email Security: To verify the sender and ensure the content hasn’t been changed.
 
 Summary
 
