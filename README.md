@@ -21,6 +21,10 @@
 | **[Chapter 13: Integrations with Other Languages**                  | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
 | **[Chapter 14: Cryptography](./src/chapter_14.md)**                 | Hashing (SHA), Encryption (RSA, AES), Digital Signatures, `ring`, Key Management      | In progress |
 
+## Examples and Source Code for Each Chapter
+
+https://github.com/evgenyigumnov/rust-recipes-for-beginners/tree/main/examples
+
 ## Contributing
 I would love to see contributions from the community. Simple steps to contribute:
 1. Do fork
