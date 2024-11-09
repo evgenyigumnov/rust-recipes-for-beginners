@@ -1,4 +1,5 @@
 # Rust Recipes for Beginners
+## A book for beginners in Rust, not beginners in programming
 
 ![book](https://github.com/evgenyigumnov/rust-recipes-for-beginners/raw/HEAD/book.png)
 
