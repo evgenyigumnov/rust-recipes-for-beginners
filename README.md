@@ -11,14 +11,14 @@
 | **[Chapter 3: Error Handling](./src/chapter_3.md)**                 | Result & Option, `?` Operator, `anyhow`, `thiserror`, Custom Errors   | Done        |
 | **[Chapter 4: Command Line Applications](./src/chapter_4.md)**      | `clap`, CLI Development, Argument Parsing, Environment Variables             | Done        |
 | **[Chapter 5: Logging and Monitoring](./src/chapter_5.md)**         | `log`, `tracing`, Diagnostics, Monitoring Tools                              | Done        |
-| **[Chapter 6: Serialization and Deserialization**                   | Serde, JSON, YAML, TOML, CSV, Bincode, Custom Serialization                  | In progress |
-| **[Chapter 7: Memory Management and Smart Pointers**                | Ownership, `Box`, `Rc`, `Arc`, `Mutex`, `RefCell`, `Weak`, `Drop`, `unsafe`  |             |
-| **[Chapter 8: Design Patterns**                                     | Creational, Structural, Behavioral Patterns, Traits, Enums, Smart Pointers             |             |
-| **[Chapter 9: Asynchronous Programming**                            | `async`/`await`, Tokio, Futures, Async I/O, Task Management, Concurrency, Crossbeam    |             |
-| **[Chapter 10: Working with Databases**                             | SQLite, MySQL, PostgreSQL, SQLx, SeaORM, Diesel, Async Database Operations            |             |
-| **[Chapter 11: Web Development**                                    | Axum, Actix, `reqwest`, `ureq`, `hyper`, HTTP Clients, Servers, APIs, Asynchronous Web|             |
-| **[Chapter 12: Building AI Pipelines with LangChain-Rust**          | LLMs, Embeddings, Vector Stores, Document Loaders, AI Integration                     |             |
-| **[Chapter 13: Integrations with Other Languages**                  | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
+| **Chapter 6: Serialization and Deserialization**                   | Serde, JSON, YAML, TOML, CSV, Bincode, Custom Serialization                  | In progress |
+| **Chapter 7: Memory Management and Smart Pointers**                | Ownership, `Box`, `Rc`, `Arc`, `Mutex`, `RefCell`, `Weak`, `Drop`, `unsafe`  |             |
+| **Chapter 8: Design Patterns**                                     | Creational, Structural, Behavioral Patterns, Traits, Enums, Smart Pointers             |             |
+| **Chapter 9: Asynchronous Programming**                            | `async`/`await`, Tokio, Futures, Async I/O, Task Management, Concurrency, Crossbeam    |             |
+| **Chapter 10: Working with Databases**                             | SQLite, MySQL, PostgreSQL, SQLx, SeaORM, Diesel, Async Database Operations            |             |
+| **Chapter 11: Web Development**                                    | Axum, Actix, `reqwest`, `ureq`, `hyper`, HTTP Clients, Servers, APIs, Asynchronous Web|             |
+| **Chapter 12: Building AI Pipelines with LangChain-Rust**          | LLMs, Embeddings, Vector Stores, Document Loaders, AI Integration                     |             |
+| **Chapter 13: Integrations with Other Languages**                  | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
 | **[Chapter 14: Cryptography](./src/chapter_14.md)**                 | Hashing (SHA), Encryption (RSA, AES), Digital Signatures, `ring`, Key Management      | In progress |
 
 ## Examples and Source Code for Each Chapter
