@@ -7,26 +7,6 @@ This book is intended for those who are new to the Rust programming language but
 
 The essence of this book is that it is created with the help of Large Language Models (LLMs). The author formulates the requirements for each section, and the LLM generates the text and code examples. The author then edits and verifies the code through compilation and test execution. The edited version is added to the book. Typically, each chapter is divided by the author into sections, and each section is generated separately by the LLM, eventually being assembled into a full chapter from individual parts. This book is distributed under the MIT license, and pull requests from co-authors are welcome.
 
-
-**Book Structure and Status:**
-
-| Chapter Titles                                    | Concepts & Technologies Covered                                       | Status      |
-|---------------------------------------------------|-----------------------------------------------------------------------|-------------|
-| **Chapter 1: Cargo: Managing Rust Projects**      | Cargo, Project Initialization, Workspaces, Modules, Dependencies      | Done        |
-| **Chapter 2: Functional Programming in Rust**     | Iterators, Closures, Mapping, Filtering, Folding, Enumerating         | Done        |
-| **Chapter 3: Error Handling**                     | Result & Option, `?` Operator, `anyhow`, `thiserror`, Custom Errors   | Done        |
-| **Chapter 4: Command Line Applications**              | `clap`, CLI Development, Argument Parsing, Environment Variables             | Done        |
-| **Chapter 5: Logging and Monitoring**                 | `log`, `tracing`, Diagnostics, Monitoring Tools                              | Done        |
-| **Chapter 6: Serialization and Deserialization**      | Serde, JSON, YAML, TOML, CSV, Bincode, Custom Serialization                  | In progress |
-| **Chapter 7: Memory Management and Smart Pointers**   | Ownership, `Box`, `Rc`, `Arc`, `Mutex`, `RefCell`, `Weak`, `Drop`, `unsafe`  |             |
-| **Chapter 8: Design Patterns**                 | Creational, Structural, Behavioral Patterns, Traits, Enums, Smart Pointers             |             |
-| **Chapter 9: Asynchronous Programming**        | `async`/`await`, Tokio, Futures, Async I/O, Task Management, Concurrency, Crossbeam    |             |
-| **Chapter 10: Working with Databases**                    | SQLite, MySQL, PostgreSQL, SQLx, SeaORM, Diesel, Async Database Operations            |             |
-| **Chapter 11: Web Development**                           | Axum, Actix, `reqwest`, `ureq`, `hyper`, HTTP Clients, Servers, APIs, Asynchronous Web|             |
-| **Chapter 12: Building AI Pipelines with LangChain-Rust** | LLMs, Embeddings, Vector Stores, Document Loaders, AI Integration                     |             |
-| **Chapter 13: Integrations with Other Languages**         | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
-| **Chapter 14: Cryptography**                              | Hashing (SHA), Encryption (RSA, AES), Digital Signatures, `ring`, Key Management      | In progress |
-
 **About the Book:**
 
 In this book, you will learn how to solve a wide variety of programming challenges using Rust. Starting with basic project management and setting up with Cargo, we will delve into topics including functional programming, asynchronous programming, serialization, design patterns, memory management, databases, web development, AI pipelines, and much more. This cookbook aims to provide practical solutions with step-by-step instructions, catering to developers who are already familiar with programming and want to deepen their skills in Rust.
