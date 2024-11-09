@@ -1,4 +1,7 @@
 # Introduction
+**Who is this book for?**
+
+This book is intended for those who are new to the Rust programming language but not to programming in general. In other words, it is designed for programmers who already have experience in other languages and want to learn Rust. Overall, Rust is not the best choice as a first programming language for beginners. It's recommended to start with simpler languages like Python or TypeScript, then progress to languages such as Java or Go, and only after gaining a solid foundation, approach more complex languages like C/C++ or Rust.
 
 **Idea and Concept of the Book:**
 
