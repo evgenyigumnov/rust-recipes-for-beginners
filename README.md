@@ -22,8 +22,6 @@
 
 https://github.com/evgenyigumnov/rust-recipes-for-beginners/tree/main/examples
 
-![book](https://github.com/evgenyigumnov/rust-recipes-for-beginners/raw/HEAD/src/book.png)
-
 ## Contributing
 I would love to see contributions from the community. Simple steps to contribute:
 1. Do fork
