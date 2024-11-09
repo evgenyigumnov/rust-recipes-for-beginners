@@ -25,7 +25,7 @@ The essence of this book is that it is created with the help of Large Language M
 | **Chapter 11: Web Development**                           | Axum, Actix, `reqwest`, `ureq`, `hyper`, HTTP Clients, Servers, APIs, Asynchronous Web|             |
 | **Chapter 12: Building AI Pipelines with LangChain-Rust** | LLMs, Embeddings, Vector Stores, Document Loaders, AI Integration                     |             |
 | **Chapter 13: Integrations with Other Languages**         | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
-| **Chapter 14: Cryptography**                              | Hashing (SHA), Encryption (RSA, AES), Digital Signatures, `ring`, Key Management      |             |
+| **Chapter 14: Cryptography**                              | Hashing (SHA), Encryption (RSA, AES), Digital Signatures, `ring`, Key Management      | In progress |
 
 **About the Book:**
 
