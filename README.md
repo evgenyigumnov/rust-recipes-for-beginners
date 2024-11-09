@@ -1,8 +1,5 @@
 # Rust Recipes for Beginners
 ## A book for beginners in Rust, not beginners in programming
-
-![book](https://github.com/evgenyigumnov/rust-recipes-for-beginners/raw/HEAD/book.png)
-
 | Chapter Titles                                                      | Concepts & Technologies Covered                                       | Status      |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------|-------------|
 | **[Introduction](./src/chapter_0.md)**                              | Cargo, Project Initialization, Workspaces, Modules, Dependencies      | Done        |
@@ -24,6 +21,8 @@
 ## Examples and Source Code for Each Chapter
 
 https://github.com/evgenyigumnov/rust-recipes-for-beginners/tree/main/examples
+
+![book](https://github.com/evgenyigumnov/rust-recipes-for-beginners/raw/HEAD/src/book.png)
 
 ## Contributing
 I would love to see contributions from the community. Simple steps to contribute:
