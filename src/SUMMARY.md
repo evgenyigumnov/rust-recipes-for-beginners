@@ -10,7 +10,7 @@
 - Chapter 7: Memory Management and Smart Pointers
 - Chapter 8: Design Patterns
 - Chapter 9: Asynchronous Programming
-- Chapter 10: Working with Databases
+- [Chapter 10: Working with Databases](./chapter_10.md)
 - Chapter 11: Web Development
 - Chapter 12: Building AI Pipelines with LangChain-Rust
 - Chapter 13: Integrations with Other Languages
