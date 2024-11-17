@@ -12,7 +12,7 @@
 | **Chapter 7: Memory Management and Smart Pointers**                | Ownership, `Box`, `Rc`, `Arc`, `Mutex`, `RefCell`, `Weak`, `Drop`, `unsafe`  |             |
 | **Chapter 8: Design Patterns**                                     | Creational, Structural, Behavioral Patterns, Traits, Enums, Smart Pointers             |             |
 | **Chapter 9: Asynchronous Programming**                            | `async`/`await`, Tokio, Futures, Async I/O, Task Management, Concurrency, Crossbeam    |             |
-| **Chapter 10: Working with Databases**                             | SQLite, MySQL, PostgreSQL, SQLx, SeaORM, Diesel, Async Database Operations            |             |
+| **[Chapter 10: Working with Databases**](./src/chapter_10.md)                           | SQLite, MySQL, PostgreSQL, SQLx, SeaORM, Diesel, Async Database Operations            | In progress|
 | **Chapter 11: Web Development**                                    | Axum, Actix, `reqwest`, `ureq`, `hyper`, HTTP Clients, Servers, APIs, Asynchronous Web|             |
 | **Chapter 12: Building AI Pipelines with LangChain-Rust**          | LLMs, Embeddings, Vector Stores, Document Loaders, AI Integration                     |             |
 | **Chapter 13: Integrations with Other Languages**                  | UniFFI, WebAssembly, FFI, Cross-Language Support, Memory Safety in FFI                |             |
